@@ -114,5 +114,4 @@ class RadiomanTest {
         radio.decreaseVolume();
         assertEquals(0, radio.getCurrentVolume());
     }
-
 }
