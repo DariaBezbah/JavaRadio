@@ -2,11 +2,15 @@ public class Radioman {
     private int currentStation;
     private int minStation = 0;
     private int maxStation = 9;
+    private int quantityStation = 10;
     private int currentVolume;
     private int minVolume = 0;
     private int maxVolume = 10;
-
-
+    public Radioman() {
+    }
+    public Radioman(int quantityStation) {
+        this.quantityStation = quantityStation;
+    }
     public int getCurrentStation() {
         return currentStation;
     }
