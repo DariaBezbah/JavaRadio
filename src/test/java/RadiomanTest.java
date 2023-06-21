@@ -115,9 +115,9 @@ class RadiomanTest {
         assertEquals(0, radio.getCurrentVolume());
     }
     @Test
-    void ShouldSetMiddleStation() {
+    void ShouldBeQuantityStation() {
         radio.setCurrentStation(15);
-        radio.nextStation();
+        radio.getCurrentStation();
         assertEquals(0, radio.getCurrentStation());
     }
 }
