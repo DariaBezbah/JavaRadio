@@ -1,7 +1,7 @@
 public class Radioman {
     private int currentStation;
     private int minStation = 0;
-    private int maxStation = 9;
+    private int maxStation = 20;
     private int quantityStation = 10;
     private int currentVolume;
     private int minVolume = 0;
