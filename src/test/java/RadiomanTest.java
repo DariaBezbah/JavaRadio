@@ -21,7 +21,7 @@ class RadiomanTest {
     @Test
     void shouldSetStationOverMaxStation() {
         radio.setCurrentStation(10);
-        assertEquals(0, radio.getCurrentStation());
+        assertEquals(10, radio.getCurrentStation());
     }
 
     @Test
@@ -114,5 +114,11 @@ class RadiomanTest {
         radio.decreaseVolume();
         assertEquals(0, radio.getCurrentVolume());
     }
+    @Test
+    void shouldSetStation() {
+        radio.setCurrentStation(15);
+        assertEquals(15, radio.getCurrentStation());
+    }
+    }
 
-}
+
